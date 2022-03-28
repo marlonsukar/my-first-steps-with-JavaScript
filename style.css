@@ -1,0 +1,82 @@
+@charset "UTF-8";
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans&display=swap');
+
+* {
+    margin: 0 auto;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Open Sans', sans-serif;
+}
+
+body {
+    background-image: url(img/sitebackground1.jpg);
+}
+#menu-h {
+    background: cover;
+    background-color: black
+}
+
+#menu-h ul {
+    max-width: 100%;
+    list-style: none;
+    padding: 0;
+    background-color: black;
+}
+
+#menu-h ul li {
+    display: inline;
+}
+
+#menu-h ul li a {
+    color: white;
+    padding: 25px;
+    display: inline-block;
+    text-decoration: none;
+    transition: background .4s;
+}
+
+#menu-h ul li a:hover {
+    background-color: rgb(47, 218, 61) 
+}
+
+#menu-h ul li:last-child a {
+    float: right;
+    background-color: rgb(47, 218, 61) ;
+}
+
+#bv section {
+    color: white;
+    height: 600px;
+    width: auto;
+    border-radius: 8px;
+}
+
+#menu-b {
+    padding: 25px;
+    color: white;
+    background: cover;
+    background-color: black
+}
+
+#menu-b ul {
+    max-height: 100%;
+    max-width: 100%;
+    list-style: none;
+    padding: 0;
+    background-color: black;
+}
+
+#menu-b ul li {
+    display: inline;
+}
+
+#menu-b ul li a {
+    color: white;
+    padding: 25px;
+    text-decoration: none;
+    transition: background .4s;
+}
+
+#menu-b ul li a:hover {
+    background-color: rgb(47, 218, 61) 
+}
